@@ -22,7 +22,7 @@ This project is a Django-based API for managing users and tracking their expense
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/expense-tracker.git
+    git clone https://github.com/TUSHAR-VERMA-star/dailyExpenses.git
     cd expense-tracker
     ```
 
@@ -81,8 +81,11 @@ This project is a Django-based API for managing users and tracking their expense
     - **Body**:
       ```json
       {
-        "name": "User Name"
+            "email": "user1@example.com",
+            "name": "User One",
+            "mobile_number": "1234567890"
       }
+
       ```
 
 2. **Retrieve User Details**
